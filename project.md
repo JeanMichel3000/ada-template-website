@@ -34,6 +34,29 @@ The mobility change can also be studied more precisely, taking into account the 
 
 The different countries can then be clusterized with k-means to group countries with a similar response to pandemics. The results of this clustering is detailed below : (à remplacer ensuite par une sorte de graphe interactif)
 
+
+<details><summary>CLuster 1</summary>
+<p>
+
+#### Cluster 1
+
+Countries : ['United Arab Emirates', 'Austria', 'Bosnia and Herzegovina', 'Bangladesh', 'Belgium', 'Chile', 'Costa Rica', 'Cape Verde', 'Dominican Republic', 'Egypt', 'France', 'United Kingdom', 'Ghana', 'Greece', 'Guatemala', 'Croatia', 'Ireland', 'Israel', 'Iraq', 'Italy', 'Kazakhstan', 'Lebanon', 'Luxembourg', 'Moldova', 'North Macedonia', 'Malta', 'Malaysia', 'Namibia', 'Poland', 'Portugal', 'Paraguay', 'Romania', 'Russia', 'Rwanda', 'Saudi Arabia', 'Slovenia', 'Slovakia', 'Turkey', 'Trinidad and Tobago', 'Ukraine', 'Uganda', 'Venezuela', 'Zimbabwe']
+
+Democracy index distribution:
+
+
+
+Centroid of the cluster :
+retail_and_recreation -74.2 %
+grocery_and_pharmacy -49.7 %
+transit_stations -74.1 %
+workplaces -62.7 %
+
+Analysis : This cluster contains a high number of countries. It seems to be the most popular restrictions genotype over the world, with an important decrease in the visits to “retail and recreation” places and transit stations. This decrease was less important for vital shops (“grocery and pharmacy”). An important part of democratic countries (democracy index > 0.6) have followed this path. The other part is mostly in the cluster 4.
+</p>
+</details>
+
+
 Cluster 1 :
 
 Countries : ['United Arab Emirates', 'Austria', 'Bosnia and Herzegovina', 'Bangladesh', 'Belgium', 'Chile', 'Costa Rica', 'Cape Verde', 'Dominican Republic', 'Egypt', 'France', 'United Kingdom', 'Ghana', 'Greece', 'Guatemala', 'Croatia', 'Ireland', 'Israel', 'Iraq', 'Italy', 'Kazakhstan', 'Lebanon', 'Luxembourg', 'Moldova', 'North Macedonia', 'Malta', 'Malaysia', 'Namibia', 'Poland', 'Portugal', 'Paraguay', 'Romania', 'Russia', 'Rwanda', 'Saudi Arabia', 'Slovenia', 'Slovakia', 'Turkey', 'Trinidad and Tobago', 'Ukraine', 'Uganda', 'Venezuela', 'Zimbabwe']
