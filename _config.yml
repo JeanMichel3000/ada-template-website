@@ -7,3 +7,7 @@ navigation:
     url: /
   - title: Example
     url: example
+  - title: The project
+    url: project
+  - title: Our team
+    url: team
