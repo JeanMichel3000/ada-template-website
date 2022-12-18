@@ -35,7 +35,10 @@ The mobility change can also be studied more precisely, taking into account the 
 The different countries can then be clusterized with k-means to group countries with a similar response to pandemics. The results of this clustering is detailed below : (à remplacer ensuite par une sorte de graphe interactif)
 
 
-<details><summary>CLuster 1</summary>
+
+
+
+<details><summary>Cluster 1</summary>
 <p>
 
 #### Cluster 1
@@ -57,24 +60,9 @@ Analysis : This cluster contains a high number of countries. It seems to be the 
 </details>
 
 
-Cluster 1 :
-
-Countries : ['United Arab Emirates', 'Austria', 'Bosnia and Herzegovina', 'Bangladesh', 'Belgium', 'Chile', 'Costa Rica', 'Cape Verde', 'Dominican Republic', 'Egypt', 'France', 'United Kingdom', 'Ghana', 'Greece', 'Guatemala', 'Croatia', 'Ireland', 'Israel', 'Iraq', 'Italy', 'Kazakhstan', 'Lebanon', 'Luxembourg', 'Moldova', 'North Macedonia', 'Malta', 'Malaysia', 'Namibia', 'Poland', 'Portugal', 'Paraguay', 'Romania', 'Russia', 'Rwanda', 'Saudi Arabia', 'Slovenia', 'Slovakia', 'Turkey', 'Trinidad and Tobago', 'Ukraine', 'Uganda', 'Venezuela', 'Zimbabwe']
-
-Democracy index distribution:
-
-
-
-Centroid of the cluster :
-retail_and_recreation -74.2 %
-grocery_and_pharmacy -49.7 %
-transit_stations -74.1 %
-workplaces -62.7 %
-
-Analysis : This cluster contains a high number of countries. It seems to be the most popular restrictions genotype over the world, with an important decrease in the visits to “retail and recreation” places and transit stations. This decrease was less important for vital shops (“grocery and pharmacy”). An important part of democratic countries (democracy index > 0.6) have followed this path. The other part is mostly in the cluster 4.
-
-
-Cluster 2 :
+<details><summary>Cluster 2</summary>
+<p>
+#### Cluster 2 :
 
 Countries : ['Burkina Faso', 'Bahrain', 'Benin', 'Belarus', 'Cameroon', 'Haiti', 'Japan', 'Cambodia', 'Latvia', 'Mali', 'Mozambique', 'Niger', 'Papua New Guinea', 'Sweden', 'Senegal', 'Togo', 'Thailand', 'Tanzania', 'Yemen', 'Zambia']
 
@@ -88,8 +76,14 @@ transit_st -40.910714285714285 %
 workplaces -32.40357142857143 %
 
 Analysis : Cluster with light restrictions. Mostly composed of undemocratic countries. This is quite surprising as we could expect undemocratic countries to impose the hardest restrictions while the contrary seems to happen.
+</p>
+</details>
 
-Cluster 3 :
+
+<details><summary>Cluster 3</summary>
+<p>
+
+#### Cluster 3 :
 
 Countries : ['Argentina', 'Barbados', 'Bolivia', 'Botswana', 'Colombia', 'Ecuador', 'Spain', 'Georgia', 'Honduras', 'India', 'Jordan', 'Kyrgyzstan', 'Kuwait', 'Sri Lanka', 'Morocco', 'Mauritius', 'Nepal', 'New Zealand', 'Panama', 'Peru', 'Philippines', 'Pakistan', 'Serbia', 'El Salvador', 'South Africa']
 
@@ -103,8 +97,14 @@ transit_st -82.91428571428571 %
 workplaces -78.62857142857143 %
 
 Analysis : Hardest lockdown. What is remarkable here is that the countries with the hardest restrictions on people’s mobility are almost exclusively countries with a moderate democracy index. One probable explanation is that it was impossible on democratic countries to go as far in the restrictions without violating the rule of law. As undemocratic countries are often quite poor, it is probably impossible for them to impose such severe restrictions without durably impacting an already fragile economy.
+</p>
+</details>
 
-Cluster 4 :
+
+<details><summary>Cluster 4</summary>
+<p>
+
+#### Cluster 4 :
 
 Countries : ['Afghanistan', 'Angola', 'Australia', 'Bulgaria', 'Brazil', 'Canada', 'Switzerland', 'Czechia', 'Germany', 'Denmark', 'Estonia', 'Finland', 'Fiji', 'Gabon', 'Hungary', 'Indonesia', 'Jamaica', 'Kenya', 'Laos', 'Lithuania', 'Libya', 'Mexico', 'Nigeria', 'Nicaragua', 'Netherlands', 'Norway', 'Oman', 'Qatar', 'Singapore', 'Tajikistan', 'United States', 'Uruguay', 'Vietnam']
 
@@ -118,8 +118,14 @@ transit_st -60.62121212121212 %
 workplaces -51.4025974025974 %
 
 Analysis : Cluster with moderate restrictions. A majority of the democratic countries is contained in this cluster. This is the more balanced cluster, with a moderate decrease in the visits to “retail and recreation” places and “transit stations”, and a light decrease in the visits to vital shops. The impact on work is also moderate.
+</p>
+</details>
 
-Cluster 5 :
+
+<details><summary>Cluster 5</summary>
+<p>
+
+#### Cluster 5 :
 
 Countries : ['Hong Kong', 'South Korea', 'Mongolia', 'Taiwan']
 
@@ -133,6 +139,9 @@ transit_st -11.321428571428562 %
 workplaces -16.94642857142857 %
 
 Analysis : Cluster with almost no restrictions. It is difficult to interpret on the democracy index as there are very few countries in this cluster.
+
+</p>
+</details>
 
 
 
@@ -150,6 +159,8 @@ The R-squared value being 0.385 , the democracy index explains an important part
 One possible explanation of this phenomena could be the association between the democracy index and the wealth of the countries. The more democratic, the richest a country is and the higher is its capacity to enforce constraining measures without too important impact on the poverty of its population.
 
 [ADD PIB DEMOCRARY INDEX GRAPH]
+
+![plot_gdp_dem_index](images/gdp_dem_index.png)
 
 
 
