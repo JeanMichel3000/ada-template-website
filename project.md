@@ -21,10 +21,7 @@ freedom and fairness of elections, freedoms of association and expression, civil
 
 The covid pandemics impacted our mobility in an unprecedented way. In a vast majority of countries in the world, people almost stopped going outside and spent the majority of their time at home, because they were forced to, because of the fear of the virus, because of the closure of the shops or because of a combination of these factors. Of course, not all countries reacted in the same way to the pandemics. Some countries showed only a small decrease in the mobility of the inhabitants while some others completely stopped all social activity. Three countries were taken as examples in the graph below :
 
-
-
-
-
+![plot_walking_evolution](images/walking_evolution_fr_me_viet.png)
 
 
 
