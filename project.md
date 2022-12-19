@@ -35,6 +35,39 @@ The mobility change can also be studied more precisely, taking into account the 
 The different countries can then be clusterized with k-means to group countries with a similar response to pandemics. The results of this clustering is detailed below : (à remplacer ensuite par une sorte de graphe interactif)
 
 
+<label for="registration_select"></label>
+<select id="registration_selection" name="registration">
+     <option value = "select"> ---Select--- </option>
+     <option value = "option1"><h1>Option A  </h1></option>
+     <option value = "option2"> Option B </option>
+</select>
+
+<section id = "show_option_A" style="display: none;">A</section>
+<section id = "show_option_B" style="display: none;">B</section>
+
+```js
+const register = document.querySelector("#registration_selection");
+const optionA = document.querySelector("#show_option_A");
+const optionB = document.querySelector("#show_option_B");
+
+register.addEventListener('change', (event) => {
+  if (register.value === "option1") {
+      optionA.style.display = "block";
+      optionB.style.display = "none";
+      }
+  else if (register.value === "option2") {
+          optionA.style.display = "none";
+          optionB.style.display = "block";
+          }
+  else {
+      optionA.style.display = "none";
+      optionB.style.display = "none";
+      }
+});
+```
+
+
+
 
 
 
