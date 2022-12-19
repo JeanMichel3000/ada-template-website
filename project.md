@@ -42,7 +42,7 @@ The different countries can then be clusterized with k-means to group countries 
 Plese select a cluster to display the details :
 <label for="registration_select"></label>
 <select id="registration_selection" name="registration">
-    <option value = "select cluster"> ---Select--- </option>
+    <option value = "select cluster" selected="selected"> ---Select--- </option>
     <option value = "option1">Cluster 1</option>
     <option value = "option2">Cluster 2</option>
     <option value = "option3">Cluster 3</option>
@@ -60,6 +60,7 @@ Plese select a cluster to display the details :
 
 United Arab Emirates , Austria, Bosnia and Herzegovina, Bangladesh, Belgium, Chile, Costa Rica, Cape Verde, Dominican Republic, Egypt, France, United Kingdom, Ghana, Greece, Guatemala, Croatia, Ireland, Israel, Iraq, Italy, Kazakhstan, Lebanon, Luxembourg, Moldova, North Macedonia, Malta, Malaysia, Namibia, Poland, Portugal, Paraguay, Romania, Russia, Rwanda, Saudi Arabia, Slovenia, Slovakia, Turkey, Trinidad and Tobago, Ukraine, Uganda, Venezuela, Zimbabwe
 
+<br>
 <br>
 
 <b>Democracy index distribution :</b>
@@ -94,6 +95,7 @@ United Arab Emirates , Austria, Bosnia and Herzegovina, Bangladesh, Belgium, Chi
 Burkina Faso, Bahrain, Benin, Belarus, Cameroon, Haiti, Japan, Cambodia, Latvia, Mali, Mozambique, Niger, Papua New Guinea, Sweden, Senegal, Togo, Thailand, Tanzania, Yemen, Zambia
 
 <br>
+<br>
 
 <b>Democracy index distribution :</b>
 
@@ -124,6 +126,7 @@ Burkina Faso, Bahrain, Benin, Belarus, Cameroon, Haiti, Japan, Cambodia, Latvia,
 <b>Countries :</b>  <br>
 Argentina, Barbados, Bolivia, Botswana, Colombia, Ecuador, Spain, Georgia, Honduras, India, Jordan, Kyrgyzstan, Kuwait, Sri Lanka, Morocco, Mauritius, Nepal, New Zealand, Panama, Peru, Philippines, Pakistan, Serbia, El Salvador, South Africa
 
+<br>
 <br>
 
 <b>Democracy index distribution :</b>
@@ -158,6 +161,7 @@ Argentina, Barbados, Bolivia, Botswana, Colombia, Ecuador, Spain, Georgia, Hondu
 Afghanistan, Angola, Australia, Bulgaria, Brazil, Canada, Switzerland, Czechia, Germany, Denmark, Estonia, Finland, Fiji, Gabon, Hungary, Indonesia, Jamaica, Kenya, Laos, Lithuania, Libya, Mexico, Nigeria, Nicaragua, Netherlands, Norway, Oman, Qatar, Singapore, Tajikistan, United States, Uruguay, Vietnam
 
 <br>
+<br>
 
 <b>Democracy index distribution :</b>
 
@@ -189,6 +193,7 @@ Afghanistan, Angola, Australia, Bulgaria, Brazil, Canada, Switzerland, Czechia, 
 <b>Countries : </b> <br>
 Hong Kong, South Korea, Mongolia, Taiwan
 
+<br>
 <br>
 
 <b>Democracy index distribution:</b>
