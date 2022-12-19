@@ -41,7 +41,6 @@ import './javascript_code.js';
 
 
 <html>
-<script src="{{ '/javascript_code.js' | relative_url }}"></script>
 <label for="registration_select"></label>
 <select id="registration_selection" name="registration">
      <option value = "select"> ---Select--- </option>
@@ -52,6 +51,8 @@ import './javascript_code.js';
 <section id = "show_option_A" style="display: block;">A</section>
 <section id = "show_option_B" style="display: block;">B</section>
 
+<script src="{{ '/javascript_code.js' | relative_url }}"></script>
+<script src='javascript_code.js'></script>
 
 </html>
 
