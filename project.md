@@ -34,24 +34,164 @@ The mobility change can also be studied more precisely, taking into account the 
 
 The different countries can then be clusterized with k-means to group countries with a similar response to pandemics. The results of this clustering is detailed below : (à remplacer ensuite par une sorte de graphe interactif)
 
-```js script
-import './javascript_code.js';
-```
-# This is my component
+![plot_cat_changes](images/categories_change.png)
+
 
 
 <html>
+Plese select a cluster to display the details :
 <label for="registration_select"></label>
 <select id="registration_selection" name="registration">
-     <option value = "select"> ---Select--- </option>
-     <option value = "option1"><h1>Option A  </h1></option>
-     <option value = "option2"> Option B </option>
+    <option value = "select cluster"> ---Select--- </option>
+    <option value = "option1">Cluster 1</option>
+    <option value = "option2">Cluster 2</option>
+    <option value = "option3">Cluster 3</option>
+    <option value = "option4">Cluster 4</option>
+    <option value = "option5">Cluster 5</option>
 </select>
 
-<section id = "show_option_A" style="display: block;">A</section>
-<section id = "show_option_B" style="display: block;">B</section>
+<section id = "show_option1" style="display: none;">
 
-<script src="{{ '/javascript_code.js' | relative_url }}"></script>
+<p>
+
+<h3><b>Cluster 1</b></h3>
+
+<b>Countries :</b>
+
+United Arab Emirates , Austria, Bosnia and Herzegovina, Bangladesh, Belgium, Chile, Costa Rica, Cape Verde, Dominican Republic, Egypt, France, United Kingdom, Ghana, Greece, Guatemala, Croatia, Ireland, Israel, Iraq, Italy, Kazakhstan, Lebanon, Luxembourg, Moldova, North Macedonia, Malta, Malaysia, Namibia, Poland, Portugal, Paraguay, Romania, Russia, Rwanda, Saudi Arabia, Slovenia, Slovakia, Turkey, Trinidad and Tobago, Ukraine, Uganda, Venezuela, Zimbabwe
+
+<b>Democracy index distribution :</b>
+
+<p align='center'>
+<img src="images/cluster_1.png" />
+</p>
+
+
+<b>Centroid of the cluster :</b>
+*   retail and recreation : -74.2 %
+*   grocery and pharmacy : -49.7 %
+*   transit stations : -74.1 %
+*   workplaces : -62.7 %
+
+<b>Analysis : </b>This cluster contains a high number of countries. It seems to be the most popular restrictions genotype over the world, with an important decrease in the visits to “retail and recreation” places and transit stations. This decrease was less important for vital shops (“grocery and pharmacy”). An important part of democratic countries (democracy index > 0.6) have followed this path. The other part is mostly in the cluster 4.
+</p>
+
+</section>
+
+
+
+<section id = "show_option2" style="display: none;">
+
+<p>
+<h3><b>Cluster 2</b></h3>
+
+<b>Countries : </b>Burkina Faso, Bahrain, Benin, Belarus, Cameroon, Haiti, Japan, Cambodia, Latvia, Mali, Mozambique, Niger, Papua New Guinea, Sweden, Senegal, Togo, Thailand, Tanzania, Yemen, Zambia
+
+<b>Democracy index distribution :</b>
+
+<p align='center'>
+<img src="images/cluster_2.png" />
+</p>
+
+
+<b>Centroid of the cluster : </b>
+*   Retail and recreation : -34.0 %
+*   Grocery and Pharmacy : -21.0 %
+*   Transit stations : -40.9 %
+*   Workplaces : -32.4 %
+
+<b>Analysis : </b>Cluster with light restrictions. Mostly composed of undemocratic countries. This is quite surprising as we could expect undemocratic countries to impose the hardest restrictions while the contrary seems to happen.
+</p>
+
+</section>
+
+
+<section id = "show_option3" style="display: none;">
+<p>
+
+<h3><b>Cluster 3</b></h3>
+
+<b>Countries :</b> Argentina, Barbados, Bolivia, Botswana, Colombia, Ecuador, Spain, Georgia, Honduras, India, Jordan, Kyrgyzstan, Kuwait, Sri Lanka, Morocco, Mauritius, Nepal, New Zealand, Panama, Peru, Philippines, Pakistan, Serbia, El Salvador, South Africa
+
+<b>Democracy index distribution :</b>
+
+<p align='center'>
+<img src="images/cluster_3.png" />
+</p>
+
+
+<b>Centroid of the cluster : </b>
+*   Retail and recreation : -85.2 %
+*   Grocery and pharmacy : -69.6 %
+*   Transit stations : -82.9 %
+*   Workplaces : -78.6 %
+
+<b>Analysis : </b>Hardest lockdown. What is remarkable here is that the countries with the hardest restrictions on people’s mobility are almost exclusively countries with a moderate democracy index. One probable explanation is that it was impossible on democratic countries to go as far in the restrictions without violating the rule of law. As undemocratic countries are often quite poor, it is probably impossible for them to impose such severe restrictions without durably impacting an already fragile economy.
+</p>
+
+</section>
+
+
+
+<section id = "show_option4" style="display: none;">
+<p>
+
+<h3><b>Cluster 4</b></h3>
+
+<b>Countries : </b>
+
+Afghanistan, Angola, Australia, Bulgaria, Brazil, Canada, Switzerland, Czechia, Germany, Denmark, Estonia, Finland, Fiji, Gabon, Hungary, Indonesia, Jamaica, Kenya, Laos, Lithuania, Libya, Mexico, Nigeria, Nicaragua, Netherlands, Norway, Oman, Qatar, Singapore, Tajikistan, United States, Uruguay, Vietnam
+
+<b>Democracy index distribution :</b>
+
+<p align='center'>
+<img src="images/cluster_4.png" />
+</p>
+
+
+<b>Centroid of the cluster : </b>
+*   Retail and recreation : -57.4 %
+*   Grocery and pharmacy : -34.4 %
+*   Transit stations : -60.6 %
+*   Workplaces : -51.4 %
+
+<b>Analysis :</b> Cluster with moderate restrictions. A majority of the democratic countries is contained in this cluster. This is the more balanced cluster, with a moderate decrease in the visits to “retail and recreation” places and “transit stations”, and a light decrease in the visits to vital shops. The impact on work is also moderate.
+</p>
+
+</section>
+
+
+
+<section id = "show_option5" style="display: none;">
+<p>
+
+<h3><b>Cluster 5</b></h3>
+
+<b>Countries : </b>
+Hong Kong, South Korea, Mongolia, Taiwan
+
+<b>Democracy index distribution:</b>
+
+<p align='center'>
+<img src="images/cluster_5.png" />
+</p>
+
+
+<b>Centroid of the cluster :</b>
+*   Retail and recreation -12.7 %
+*   Grocery and Pharmacy : -4.5 %
+*   Transit stations : -11.3 %
+*   Workplaces : -16.9 %
+
+<b>Analysis :</b> Cluster with almost no restrictions. It is difficult to interpret on the democracy index as there are very few countries in this cluster.
+
+</p>
+</section>
+
+<br>
+<br>
+
+
 <script src='javascript_code.js'></script>
 
 </html>
@@ -61,111 +201,6 @@ import './javascript_code.js';
 
 
 
-
-<details><summary>Cluster 1</summary>
-<p>
-
-#### Cluster 1
-
-Countries : ['United Arab Emirates', 'Austria', 'Bosnia and Herzegovina', 'Bangladesh', 'Belgium', 'Chile', 'Costa Rica', 'Cape Verde', 'Dominican Republic', 'Egypt', 'France', 'United Kingdom', 'Ghana', 'Greece', 'Guatemala', 'Croatia', 'Ireland', 'Israel', 'Iraq', 'Italy', 'Kazakhstan', 'Lebanon', 'Luxembourg', 'Moldova', 'North Macedonia', 'Malta', 'Malaysia', 'Namibia', 'Poland', 'Portugal', 'Paraguay', 'Romania', 'Russia', 'Rwanda', 'Saudi Arabia', 'Slovenia', 'Slovakia', 'Turkey', 'Trinidad and Tobago', 'Ukraine', 'Uganda', 'Venezuela', 'Zimbabwe']
-
-Democracy index distribution:
-
-
-
-Centroid of the cluster :
-retail_and_recreation -74.2 %
-grocery_and_pharmacy -49.7 %
-transit_stations -74.1 %
-workplaces -62.7 %
-
-Analysis : This cluster contains a high number of countries. It seems to be the most popular restrictions genotype over the world, with an important decrease in the visits to “retail and recreation” places and transit stations. This decrease was less important for vital shops (“grocery and pharmacy”). An important part of democratic countries (democracy index > 0.6) have followed this path. The other part is mostly in the cluster 4.
-</p>
-</details>
-
-
-<details><summary>Cluster 2</summary>
-<p>
-#### Cluster 2 :
-
-Countries : ['Burkina Faso', 'Bahrain', 'Benin', 'Belarus', 'Cameroon', 'Haiti', 'Japan', 'Cambodia', 'Latvia', 'Mali', 'Mozambique', 'Niger', 'Papua New Guinea', 'Sweden', 'Senegal', 'Togo', 'Thailand', 'Tanzania', 'Yemen', 'Zambia']
-
-Democracy index distribution:
-
-
-Centroid of the cluster :
-retail_and -34.02142857142858 %
-grocery_an -21.007142857142856 %
-transit_st -40.910714285714285 %
-workplaces -32.40357142857143 %
-
-Analysis : Cluster with light restrictions. Mostly composed of undemocratic countries. This is quite surprising as we could expect undemocratic countries to impose the hardest restrictions while the contrary seems to happen.
-</p>
-</details>
-
-
-<details><summary>Cluster 3</summary>
-<p>
-
-#### Cluster 3 :
-
-Countries : ['Argentina', 'Barbados', 'Bolivia', 'Botswana', 'Colombia', 'Ecuador', 'Spain', 'Georgia', 'Honduras', 'India', 'Jordan', 'Kyrgyzstan', 'Kuwait', 'Sri Lanka', 'Morocco', 'Mauritius', 'Nepal', 'New Zealand', 'Panama', 'Peru', 'Philippines', 'Pakistan', 'Serbia', 'El Salvador', 'South Africa']
-
-Democracy index distribution:
-
-
-Centroid of the cluster :
-retail_and -85.15714285714286 %
-grocery_an -69.57428571428572 %
-transit_st -82.91428571428571 %
-workplaces -78.62857142857143 %
-
-Analysis : Hardest lockdown. What is remarkable here is that the countries with the hardest restrictions on people’s mobility are almost exclusively countries with a moderate democracy index. One probable explanation is that it was impossible on democratic countries to go as far in the restrictions without violating the rule of law. As undemocratic countries are often quite poor, it is probably impossible for them to impose such severe restrictions without durably impacting an already fragile economy.
-</p>
-</details>
-
-
-<details><summary>Cluster 4</summary>
-<p>
-
-#### Cluster 4 :
-
-Countries : ['Afghanistan', 'Angola', 'Australia', 'Bulgaria', 'Brazil', 'Canada', 'Switzerland', 'Czechia', 'Germany', 'Denmark', 'Estonia', 'Finland', 'Fiji', 'Gabon', 'Hungary', 'Indonesia', 'Jamaica', 'Kenya', 'Laos', 'Lithuania', 'Libya', 'Mexico', 'Nigeria', 'Nicaragua', 'Netherlands', 'Norway', 'Oman', 'Qatar', 'Singapore', 'Tajikistan', 'United States', 'Uruguay', 'Vietnam']
-
-Democracy index distribution:
-
-
-Centroid of the cluster :
-retail_and -57.41991341991342 %
-grocery_an -34.430735930735935 %
-transit_st -60.62121212121212 %
-workplaces -51.4025974025974 %
-
-Analysis : Cluster with moderate restrictions. A majority of the democratic countries is contained in this cluster. This is the more balanced cluster, with a moderate decrease in the visits to “retail and recreation” places and “transit stations”, and a light decrease in the visits to vital shops. The impact on work is also moderate.
-</p>
-</details>
-
-
-<details><summary>Cluster 5</summary>
-<p>
-
-#### Cluster 5 :
-
-Countries : ['Hong Kong', 'South Korea', 'Mongolia', 'Taiwan']
-
-Democracy index distribution:
-
-
-Centroid of the cluster :
-retail_and -12.696428571428577 %
-grocery_an -4.464285714285715 %
-transit_st -11.321428571428562 %
-workplaces -16.94642857142857 %
-
-Analysis : Cluster with almost no restrictions. It is difficult to interpret on the democracy index as there are very few countries in this cluster.
-
-</p>
-</details>
 
 
 
