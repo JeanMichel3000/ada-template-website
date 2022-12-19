@@ -8,6 +8,18 @@ layout: default
 Let’s start by exploring the democracy index around the world, in order to do this we have decided to use the liberal democracy from ‘Our world in Data’. Based on the expert assessments and index by V-Dem. It combines information on voting rights, the
 freedom and fairness of elections, freedoms of association and expression, civil liberties, and executive constraints. It ranges from 0 to 1 (most democratic), and gives data with a variable time span from 1789 until 2021.
 
+We can see on the graph below the evolution of these democracy indexes since the year 1960. We can spot some very marking period in some countries history and how that reflected on the evolution of their liberal democracy. We can mention, the 1980 Turkish coup d'état followed buy the partial return to democracy in 1983. The death of caudillo Francisco Franco in 1075 marking the beginning if the Spanish transition to democracy the establishment of the parliamentary monarchy and the subsequent accession of King Juan Carlos I to the throne...
+
+![plot_democracy_index_map](images/Democracy%20_evolution.png)
+
+The vertical line marks the year 2019, the year where we consoider the data for the rest of our study.
+
+
+Next using the geopandas documentation, we plotted the democracy index for the year 2019, we display here the world map, with a certain zoom to the region that interest us for the remaining of the study. 
+
+![plot_democracy_index_map](images/Democracy_index_world.png)
+![plot_democracy_index_map](images/Democracy_index_1.png)
+![plot_democracy_index_map](images/Democracy_index_2.png)
 
 
 
@@ -269,11 +281,173 @@ Very democratic countries are also the richests : they have all lattitude to imp
 
 The objective of this section is to study the impact of the COVID-19 pandemic on the population's interests, taking into account both the democracy index of each country and the level of decline in mobility. To do this we had at our disposal the Coronawiki dataset which gives, for 64 subjects, the evolution of the number of daily visits for different versions of Wikipedia between 01 January 2018 and 31 July 2020. Here we will focus on only 12 countries which are Turkey, Serbia, Japan, Italy, South Korea, Catalonia, the Netherlands, Germany, Finland, Norway, Sweden and Denmark. These are the only versions of Wikipedia present in the dataset whose language can be directly associated with a single country. This was not the case for the English version of Wikipedia, for example, as English is spoken in many parts of the world.
 
-We will start by plotting the evolution of the number of wikipedia searches for each of these countries, with the date of the start of the Mobility drastic stop for each of these countries, taken from the interventions csv.
+We will start by plotting the evolution of the number of wikipedia searches for each of these countries, with the date of the start of the Mobility drastic stop for each of these countries, taken from the interventions csv. Finally we will plot the sum of them all by taking the population of each country as a weight in the mean calculation.
+
+<html>
+Plese select a country to display the details :
+<label for="registration_select"></label>
+<select id="registration_selection" name="registration">
+    <option value = "select cluster" selected="selected"> ---Select--- </option>
+    <option value = "Sweden">Sweden</option>
+    <option value = "Denmark">Denmark</option>
+    <option value = "Italy">Italy</option>
+    <option value = "Norway">Norway</option>
+    <option value = "Germany">Germany</option>
+    <option value = "=Japan">Japan</option>
+    <option value = "The Netherlands">The Netherlands</option>
+    <option value = "Finland">Finland</option>
+    <option value = "Catalonia">Catalonia</option>
+    <option value = "Turkey">Turkey</option>
+    <option value = "Sum">Sum of all</option>
+</select>
+
+<section id = "show_option1" style="display: none;">
+<p>
+<h3><b>Sweden</b></h3>
+<br>
+<br>
+<p align='center'>
+<img src="images/Sweden_wiki.png" />
+</p>
+</p>
+</section>
+
+
+
+<section id = "show_option2" style="display: none;">
+<p>
+<h3><b>Denmark</b></h3>
+<br>
+<br>
+<p align='center'>
+<img src="images/Denmark_wiki.png" />
+</p>
+</p>
+</section>
+
+
+
+<section id = "show_option3" style="display: none;">
+<p>
+<h3><b>Italy</b></h3>
+<br>
+<br>
+<p align='center'>
+<img src="images/Italy_wiki.png" />
+</p>
+</p>
+</section>
+
+
+
+<section id = "show_option4" style="display: none;">
+<p>
+<h3><b>Norway</b></h3>
+<br>
+<br>
+<p align='center'>
+<img src="images/Norway_wiki.png" />
+</p>
+</p>
+</section>
 
 
 
 
+<section id = "show_option5" style="display: none;">
+<p>
+<h3><b>Germany</b></h3>
+<br>
+<br>
+<p align='center'>
+<img src="images/Germany_wiki.png" />
+</p>
+</p>
+</section>
+
+
+
+
+<section id = "show_option6" style="display: none;">
+<p>
+<h3><b>Japan</b></h3>
+<br>
+<br>
+<p align='center'>
+<img src="images/Japan_wiki.png" />
+</p>
+</p>
+</section>
+
+
+
+<section id = "show_option7" style="display: none;">
+<p>
+<h3><b>The Netherlands</b></h3>
+<br>
+<br>
+<p align='center'>
+<img src="images/Netherlands_wiki.png" />
+</p>
+</p>
+</section>
+
+
+
+<section id = "show_option8" style="display: none;">
+<p>
+<h3><b>Finland</b></h3>
+<br>
+<br>
+<p align='center'>
+<img src="images/Finland_wiki.png" />
+</p>
+</p>
+</section>
+
+
+
+<section id = "show_option9" style="display: none;">
+<p>
+<h3><b>Catalonia</b></h3>
+<br>
+<br>
+<p align='center'>
+<img src="images/Catalonya_wiki.png" />
+</p>
+</p>
+</section>
+
+
+
+<section id = "show_option10" style="display: none;">
+<p>
+<h3><b>Turkey</b></h3>
+<br>
+<br>
+<p align='center'>
+<img src="images/Turkey_wiki.png" />
+</p>
+</p>
+</section>
+
+
+<section id = "show_option11" style="display: none;">
+<p>
+<h3><b>Sum of all</b></h3>
+<br>
+<br>
+<p align='center'>
+<img src="images/Sum_wiki.png" />
+</p>
+</p>
+</section>
+
+
+
+\
+\
+\
 The following figure shows the relative evolution of interest in each topic in the coronawiki dataset and in each country considered here. The relative evolution of interest for a given topic in a given country is defined as follows: 
 = Icovid - IrefIref where Icovid is the average proportion of this topic among all wikipedia visits in this country during the covid period. Iref is the average proportion of this topic among all wikipedia visits in this country during same period but one year before (so in 2019)
 On the vertical axis the matrix is sorted with the subject whose interest has globally decreased the most at the top and the subject whose interest has globally increased the most at the bottom. On the horizontal axis, countries are sorted according to their mobility shift, from highest on the left to lowest on the right. 
