@@ -5,7 +5,7 @@ layout: default
 # Introduction
 
 We studied the evolution of the behaviour of citizens who were subjected to mobility restriction measures due to the Covid-19 pandemic in spring 2020. More specifically, in the following data story, we will discuss the different levels of stringency of the measures put in place, looking at a possible link with the level of democracy of the countries. Then we will see that there may be a link between the level of stringency of the measures put in place and the evolution of people's interests.  
-We will thus answer the following questions: 
+We will thus answer the following questions:  
 **Did the most democratic countries implement the most moderate measures?**  
 **Did citizens exposed to stricter measures think more about what they were not allowed to do?**  
 
