@@ -445,9 +445,7 @@ Plese select a country to display the details :
 
 
 
-\
-\
-\
+
 The following figure shows the relative evolution of interest in each topic in the coronawiki dataset and in each country considered here. The relative evolution of interest for a given topic in a given country is defined as follows: 
 = Icovid - IrefIref where Icovid is the average proportion of this topic among all wikipedia visits in this country during the covid period. Iref is the average proportion of this topic among all wikipedia visits in this country during same period but one year before (so in 2019)
 On the vertical axis the matrix is sorted with the subject whose interest has globally decreased the most at the top and the subject whose interest has globally increased the most at the bottom. On the horizontal axis, countries are sorted according to their mobility shift, from highest on the left to lowest on the right. 
