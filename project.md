@@ -300,23 +300,23 @@ We will start by plotting the evolution of the number of wikipedia searches for 
 
 <html>
 Plese select a country to display the details :
-<label for="registration_select"></label>
-<select id="registration_selection" name="registration">
-    <option value = "select cluster" selected="selected"> ---Select--- </option>
-    <option value = "option1">Sweden</option>
-    <option value = "option2">Denmark</option>
-    <option value = "option3">Italy</option>
-    <option value = "option4">Norway</option>
-    <option value = "option5">Germany</option>
-    <option value = "option6">Japan</option>
-    <option value = "option7">The Netherlands</option>
-    <option value = "option8">Finland</option>
-    <option value = "option9">Catalonia</option>
-    <option value = "option10">Turkey</option>
-    <option value = "option11">Sum of all</option>
+<label for="registration_select_country"></label>
+<select id="registration_selection_country" name="registration_country">
+    <option value = "select country" selected="selected_country"> ---Select--- </option>
+    <option value = "Sweden">Sweden</option>
+    <option value = "Denmark">Denmark</option>
+    <option value = "Italy">Italy</option>
+    <option value = "Norway">Norway</option>
+    <option value = "Germany">Germany</option>
+    <option value = "Japan">Japan</option>
+    <option value = "Netherlands">Netherlands</option>
+    <option value = "Finland">Finland</option>
+    <option value = "Catalonia">Catalonia</option>
+    <option value = "Turkey">Turkey</option>
+    <option value = "Sum of all">Sum of all</option>
 </select>
 
-<section id = "show_option1" style="display: none;">
+<section id = "show_Sweden" style="display: none;">
 <p>
 <h3><b>Sweden</b></h3>
 <br>
@@ -329,7 +329,7 @@ Plese select a country to display the details :
 
 
 
-<section id = "show_option2" style="display: none;">
+<section id = "show_Denmark" style="display: none;">
 <p>
 <h3><b>Denmark</b></h3>
 <br>
@@ -342,7 +342,7 @@ Plese select a country to display the details :
 
 
 
-<section id = "show_option3" style="display: none;">
+<section id = "show_Italy" style="display: none;">
 <p>
 <h3><b>Italy</b></h3>
 <br>
@@ -355,7 +355,7 @@ Plese select a country to display the details :
 
 
 
-<section id = "show_option4" style="display: none;">
+<section id = "show_Norway" style="display: none;">
 <p>
 <h3><b>Norway</b></h3>
 <br>
@@ -369,7 +369,7 @@ Plese select a country to display the details :
 
 
 
-<section id = "show_option5" style="display: none;">
+<section id = "show_Germany" style="display: none;">
 <p>
 <h3><b>Germany</b></h3>
 <br>
@@ -383,7 +383,7 @@ Plese select a country to display the details :
 
 
 
-<section id = "show_option6" style="display: none;">
+<section id = "show_Japan" style="display: none;">
 <p>
 <h3><b>Japan</b></h3>
 <br>
@@ -396,7 +396,7 @@ Plese select a country to display the details :
 
 
 
-<section id = "show_option7" style="display: none;">
+<section id = "show_Netherlands" style="display: none;">
 <p>
 <h3><b>The Netherlands</b></h3>
 <br>
@@ -409,7 +409,7 @@ Plese select a country to display the details :
 
 
 
-<section id = "show_option8" style="display: none;">
+<section id = "show_Finland" style="display: none;">
 <p>
 <h3><b>Finland</b></h3>
 <br>
@@ -422,7 +422,7 @@ Plese select a country to display the details :
 
 
 
-<section id = "show_option9" style="display: none;">
+<section id = "show_Catalonia" style="display: none;">
 <p>
 <h3><b>Catalonia</b></h3>
 <br>
@@ -435,7 +435,7 @@ Plese select a country to display the details :
 
 
 
-<section id = "show_option10" style="display: none;">
+<section id = "show_Turkey" style="display: none;">
 <p>
 <h3><b>Turkey</b></h3>
 <br>
@@ -447,7 +447,7 @@ Plese select a country to display the details :
 </section>
 
 
-<section id = "show_option11" style="display: none;">
+<section id = "show_Sum_of_all" style="display: none;">
 <p>
 <h3><b>Sum of all</b></h3>
 <br>
