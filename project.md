@@ -280,6 +280,7 @@ One possible explanation of this phenomena could be the association between the 
 
 Conclusion (à reformuler): the democracy index is not what drives the response to the pandemics, but the wealth of the country. Undemocratic country cannot inforce high restrictions without increasing poverty which could compromise their regime.
 Very democratic countries are also the richests : they have all lattitude to impose the measures they want as they are rich enough. Maybe also better medical infrastructure which necessitate less restrictions
++ Younger population in poorer countries
 
 
 
