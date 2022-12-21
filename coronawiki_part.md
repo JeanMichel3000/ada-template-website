@@ -169,7 +169,9 @@ Plese select a country to display the details :
 </p>
 </section>
 
+<script src='javascript_code_louis.js'></script>
 
+</html>
 
 
 The following figure shows the relative evolution of interest in each topic in the coronawiki dataset and in each country considered here. The relative evolution of interest for a given topic in a given country is defined as follows: 
