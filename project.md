@@ -301,7 +301,7 @@ We will start by plotting the evolution of the number of wikipedia searches for 
 Plese select a country to display the details :
 <label for="registration_select_country"></label>
 <select id="registration_selection_country" name="registration_country">
-    <option value = "select country" selected="selected"> ---Select--- </option>
+    <option value = "select country" selected="selected_country"> ---Select--- </option>
     <option value = "Sweden">Sweden</option>
     <option value = "Denmark">Denmark</option>
     <option value = "Italy">Italy</option>
