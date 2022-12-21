@@ -264,17 +264,21 @@ Hong Kong, South Korea, Mongolia, Taiwan
 As shown in the previous clustering, the democracy index seems to have an impact on the response of a country to the pandemics. Let us investigate more on this possible link. Using the data coming from the Apple mobility report, one can plot the decrease in walking mobility with respect to the democracy index, each point representing a country. The drop in walking mobility is evaluated as the two highest weeks before lockdown vs. the two lowest weeks (i.e. the peak of the restrictions).
 
 
-<p align="center">
+<html>
+<p id=plot_without_linear_regression align="center">
   <img src="images/decrease_walking_vs_dem_index.png" alt="plot walking dem index"/>
 </p>
+</html>
 
 
 
-A decreasing trend can clearly be observed for countries with a democracy index lower to 0.7. Let us take into account only these countries, and study the relation between walking mobility change and democracy index using a linear regression.
+A decreasing trend can clearly be observed for countries with a democracy index lower to 0.7. Let us take into account only these countries, and study the relation between walking mobility change and democracy index using a linear regression. <button id="button_plot" onclick="function_button_plot()">Click me to display linear regression</button>
 
-<p align="center">
-  <img src="images/decrease_walking_vs_dem_index_with_regression.png" alt="plot walking dem index regression"/>
+<html display="none">
+<p id="plot_with_linear_regression" align="center" display="none">
+  <img src="images/decrease_walking_vs_dem_index_with_regression.png" alt="plot walking dem index regression" display='none'/>
 </p>
+</html>
 
 
 
