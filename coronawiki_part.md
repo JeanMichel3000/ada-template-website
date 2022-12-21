@@ -178,17 +178,23 @@ Plese select a country to display the details :
 
 
 The following figure shows the relative evolution of interest in each topic in the coronawiki dataset and in each country considered here. The relative evolution of interest for a given topic in a given country is defined as follows: 
-**equation**
+
 <html>
 <head>
   <script async="true" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
 </head>
-<div class="cmath"> `f(x) = \Delta = \frac{I_{covid} - I_{ref}}{I_{ref}}`</div>
+<div class="cmath">
+`\Delta = \frac{I_{covid} - I_{ref}}{I_{ref}}`
+'I_{covid}' : average proportion of this topic among all wikipedia visits in this country during the covid period
+'I_{ref}' : average proportion of this topic among all wikipedia visits in this country during same period but one year before (so in 2019)
+</div>
 </html>
 
-where $I_{covid}$ is the average proportion of this topic among all wikipedia visits in this country during the covid period. $I_{ref}$ is the average proportion of this topic among all wikipedia visits in this country during same period but one year before (so in 2019)
+![plot_interests_matrix](images/matrice_seuil10.png)
+
+
 On the vertical axis the matrix is sorted with the subject whose interest has globally decreased the most at the top and the subject whose interest has globally increased the most at the bottom. On the horizontal axis, countries are sorted according to their mobility shift, from highest on the left to lowest on the right. 
-In the second image, only those topics that have a relative change in interest of more than 10% in absolute value (on average over all countries) are shown.
+Moreover, only those topics that have a relative change in interest of more than 10% in absolute value (on average over all countries) are shown.
 
 The subject in which interest decreased the most during the COVID was sport. 
 This decline in interest in sport is almost uniform (approximately -20%) across the 12 countries considered, although they have different mobility shift values. Even in countries where mobility has decreased less, such as Finland or Sweden, and therefore where the practice of sport has probably remained more accessible than elsewhere, interest in sport has decreased significantly. There was also a decline in interest in other subjects such as architecture, the visual arts and transportation, which can be explained by the almost complete cessation of tourism and reduction of travel. Again, these decreased values do not seem to be correlated with either the democracy index or the mobility shift.
