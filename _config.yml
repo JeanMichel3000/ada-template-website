@@ -9,5 +9,6 @@ navigation:
     url: example
   - title: The project
     url: project
+    url: coronawiki_part
   - title: Our team
     url: team
