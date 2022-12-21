@@ -299,9 +299,9 @@ We will start by plotting the evolution of the number of wikipedia searches for 
 
 <html>
 Plese select a country to display the details :
-<label for="registration_select"></label>
-<select id="registration_selection" name="registration">
-    <option value = "select cluster" selected="selected"> ---Select--- </option>
+<label for="registration_select_country"></label>
+<select id="registration_selection_country" name="registration_country">
+    <option value = "select country" selected="selected"> ---Select--- </option>
     <option value = "option1">Sweden</option>
     <option value = "option2">Denmark</option>
     <option value = "option3">Italy</option>
