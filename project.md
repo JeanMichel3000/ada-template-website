@@ -302,17 +302,17 @@ Plese select a country to display the details :
 <label for="registration_select"></label>
 <select id="registration_selection" name="registration">
     <option value = "select cluster" selected="selected"> ---Select--- </option>
-    <option value = "Sweden">Sweden</option>
-    <option value = "Denmark">Denmark</option>
-    <option value = "Italy">Italy</option>
-    <option value = "Norway">Norway</option>
-    <option value = "Germany">Germany</option>
-    <option value = "=Japan">Japan</option>
-    <option value = "The Netherlands">The Netherlands</option>
-    <option value = "Finland">Finland</option>
-    <option value = "Catalonia">Catalonia</option>
-    <option value = "Turkey">Turkey</option>
-    <option value = "Sum">Sum of all</option>
+    <option value = "option1">Sweden</option>
+    <option value = "option2">Denmark</option>
+    <option value = "option3">Italy</option>
+    <option value = "option4">Norway</option>
+    <option value = "option5">Germany</option>
+    <option value = "option6">Japan</option>
+    <option value = "option7">The Netherlands</option>
+    <option value = "option8">Finland</option>
+    <option value = "option9">Catalonia</option>
+    <option value = "option10">Turkey</option>
+    <option value = "option11">Sum of all</option>
 </select>
 
 <section id = "show_option1" style="display: none;">
