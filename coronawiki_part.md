@@ -179,6 +179,10 @@ Plese select a country to display the details :
 
 The following figure shows the relative evolution of interest in each topic in the coronawiki dataset and in each country considered here. The relative evolution of interest for a given topic in a given country is defined as follows: 
 **equation**
+<html>
+<div class="cmath"> `f(x) = (x+2)/(2x+1)`          `x in RR,\ x !=-1/2`</div>
+</html>
+
 ```math
 
 \Delta = \frac{I_{covid} - I_{ref}}{I_{ref}}
