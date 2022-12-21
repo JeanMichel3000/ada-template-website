@@ -45,3 +45,8 @@ else if (register.value === "option5") {
     show_option4.style.display = "none";
     show_option5.style.display = "none"; }
 });
+
+function myFunction(element) {
+    plot_without_linear_regression.style.display = "none";
+    plot_with_linear_regression.style.display = "block" ;
+  }
