@@ -272,6 +272,10 @@ As shown in the previous clustering, the democracy index seems to have an impact
 
 A decreasing trend can clearly be observed for countries with a democracy index lower to 0.7. Let us take into account only these countries, and study the relation between walking mobility change and democracy index using a linear regression.
 
+<p align="center">
+  <img src="images/decrease_walking_vs_dem_index_with_regression.png" alt="plot walking dem index regression"/>
+</p>
+
 
 
 The R-squared value being 0.385 , the democracy index explains an important part of the variance observed in the walking mobility change, for countries with a relatively low democracy index. The coefficients indicate that in the range of democracy index [0, 0.7], the walking mobility decreases by 3.5% each time the democracy index is increased by 0.1. There is thus a clear link between democracy index and the strength of the restrictions, but this link is much less obvious when the democratic countries are also considered. 
