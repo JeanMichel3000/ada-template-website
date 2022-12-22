@@ -286,9 +286,11 @@ The R-squared value being 0.385 , the democracy index explains an important part
 
 One possible explanation of this phenomena could be the association between the democracy index and the wealth of the countries. The more democratic, the richest a country is and the higher is its capacity to enforce constraining measures without too important impact on the poverty of its population.
 
-[ADD PIB DEMOCRARY INDEX GRAPH]
-
-![plot_gdp_dem_index](images/gdp_dem_index.png)
+<html>
+<p align="center">
+  <img src="images/gdp_dem_index.png" alt="plot walking dem index gdp" width="600">
+</p>
+</html>
 
 
 
