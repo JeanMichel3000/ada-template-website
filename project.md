@@ -484,15 +484,17 @@ Now the idea is to visualize in a simple and clear way which subjects have emerg
 
 <html>
 <head>
-  <script async="true" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"> </script>
+  <script async="true" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
 </head>
 <div class="cmath">
-`\Delta = \frac{I_{covid} - I_{ref}}{I_{ref}} \newline`
+`\Delta = \frac{I_{covid} - I_{ref}}{I_{ref}}`</div>
 
-`I_{covid}` : average proportion of this topic among all wikipedia visits in this country during the covid period `\newline`
+<div class="cmath">
+`I_{covid}` : average proportion of this topic among all wikipedia visits in this country during the covid period. </div>
 
-`I_{ref}` : average proportion of this topic among all wikipedia visits in this country during same period but one year before (so in 2019)
-</div>
+<div class="cmath">
+`I_{ref}` : average proportion of this topic among all wikipedia visits in this country during same period but one year before(so in 2019). </div>
+
 </html>
 
 ![plot_interests_matrix](images/matrice_seuil10.png)
