@@ -270,15 +270,15 @@ As shown in the previous clustering, the democracy index seems to have an impact
 </p>
 </html>
 
-
-
-A decreasing trend can clearly be observed for countries with a democracy index lower to 0.7. Let us take into account only these countries, and study the relation between walking mobility change and democracy index using a linear regression. <button id="button_plot" onclick="function_button_plot()">Click me to display linear regression</button>
-
 <html>
 <p id="plot_with_linear_regression" align="center" style="display: none;">
   <img src="images/decrease_walking_vs_dem_index_with_regression.png" alt="plot walking dem index regression">
 </p>
 </html>
+
+
+
+A decreasing trend can clearly be observed for countries with a democracy index lower to 0.7. Let us take into account only these countries, and study the relation between walking mobility change and democracy index using a linear regression. <button id="button_plot" onclick="function_button_plot()">I'd love to see this linear regression</button>
 
 
 
