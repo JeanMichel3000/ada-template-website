@@ -305,12 +305,13 @@ Very democratic countries are also the richests : they have all lattitude to imp
 
 
 
+
 # Wiki dataset presentation
 
 
-The objective of this section is to study the impact of the COVID-19 pandemic on the population's interests, taking into account both the democracy index of each country and the level of decline in mobility. To do this we had at our disposal the Coronawiki dataset which gives, for 64 subjects, the evolution of the number of daily visits for different versions of Wikipedia between 01 January 2018 and 31 July 2020. Here we will focus on only 12 countries which are Turkey, Serbia, Japan, Italy, South Korea, Catalonia, the Netherlands, Germany, Finland, Norway, Sweden and Denmark. These are the only versions of Wikipedia present in the dataset whose language can be directly associated with a single country. This was not the case for the English version of Wikipedia, for example, as English is spoken in many parts of the world.
+The objective of this section is to study the impact of the COVID-19 pandemic on the population's interests, taking into account the different level of mobility shift in each country. Only 12 countries are considered here, which are Turkey, Serbia, Japan, Italy, South Korea, Catalonia, the Netherlands, Germany, Finland, Norway, Sweden and Denmark. These are the only versions of Wikipedia present in the dataset whose language can be directly associated with a single country. This was not the case for the English version of Wikipedia, for example, as English is spoken in many parts of the world.
 
-We will start by plotting the evolution of the number of wikipedia searches for each of these countries, with the date of the start of the Mobility drastic stop for each of these countries, taken from the interventions csv. Finally we will plot the sum of them all by taking the population of each country as a weight in the mean calculation.
+Using the following drop-down menu it is possible to vizualise the total evolution of the number of wikipedia searches for these countries. On the time scale the date of the drastic drop in mobility and the date of return to normalcy are depicted. This period will be considered as the 'COVID' period for the rest of the analysis. The overall evolution in all countries is also available, the population of each country is taken as a weight in the mean calculation.
 
 <html>
 Plese select a country to display the details :
@@ -472,19 +473,46 @@ Plese select a country to display the details :
 </p>
 </section>
 
+<br>
+<br>
+
+<script src='javascript_code_louis.js'></script>
+
+</html>
+
+Now the idea is to visualize in a simple and clear way which subjects have emerged or on the contrary declined during the pandemic according to the countries. The following figure shows the relative evolution of interest in several topics and in each country considered here. The relative evolution of interest for a given topic in a given country is defined as follows: 
+
+<html>
+<head>
+  <script async="true" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+</head>
+<div class="cmath">
+`\Delta = \frac{I_{covid} - I_{ref}}{I_{ref}}`
+
+`I_{covid}` : average proportion of this topic among all wikipedia visits in this country during the covid period
+
+`I_{ref}` : average proportion of this topic among all wikipedia visits in this country during same period but one year before (so in 2019)
+</div>
+</html>
+
+![plot_interests_matrix](images/matrice_seuil10.png)
 
 
-
-The following figure shows the relative evolution of interest in each topic in the coronawiki dataset and in each country considered here. The relative evolution of interest for a given topic in a given country is defined as follows: 
-= Icovid - IrefIref where Icovid is the average proportion of this topic among all wikipedia visits in this country during the covid period. Iref is the average proportion of this topic among all wikipedia visits in this country during same period but one year before (so in 2019)
 On the vertical axis the matrix is sorted with the subject whose interest has globally decreased the most at the top and the subject whose interest has globally increased the most at the bottom. On the horizontal axis, countries are sorted according to their mobility shift, from highest on the left to lowest on the right. 
-In the second image, only those topics that have a relative change in interest of more than 10% in absolute value (on average over all countries) are shown.
+Moreover, only those topics that have a relative change in interest of more than 10% in absolute value (on average over all countries) are shown.
 
 The subject in which interest decreased the most during the COVID was sport. 
-This decline in interest in sport is almost uniform (approximately -20%) across the 12 countries considered, although they have different mobility shift values. Even in countries where mobility has decreased less, such as Finland or Sweden, and therefore where the practice of sport has probably remained more accessible than elsewhere, interest in sport has decreased significantly. There was also a decline in interest in other subjects such as architecture, the visual arts and transportation, which can be explained by the almost complete cessation of tourism and reduction of travel. Again, these decreased values do not seem to be correlated with either the democracy index or the mobility shift.
+This decline in interest in sport is almost uniform (approximately -20%) across the 12 countries considered, although they have different mobility shift values. Even in countries where mobility has decreased less, such as Finland or Sweden, interest in sport has decreased significantly. There was also a decline in interest in other subjects such as architecture, visual arts and transportation, which can be explained by the almost complete cessation of tourism and reduction of travel. Again, these decreased values do not seem to be correlated with either the democracy index or the mobility shift.
 
-Among the 10 subjects that have gained the most interest overall among the population are video games, films, books, entertainment and internet culture. This can be explained quite easily by the fact that people have been looking for new occupations to occupy the large amount of free time spent at home. We also find 'biology' and 'medicine and health' which are probably linked to the public's concern and need for information about COVID-19. Here it seems interesting to look at the impact of the mobility shift on the relative evolution of interest in these topics. In the next figure each point represents a version of wikipedia, with the mobility shift in the associated country on the x-axis and the gain in interest in films and video games on the y-axis (weighted average of the two subjects). There appears to be a linear relationship between the two variables, the coefficients of which are made explicit in the graph. The slope of the line is about 0.6, which means that a 10-point decrease in mobility leads to a 6-point increase in interest in video games and films.
+Among the 10 subjects that have gained the most interest overall among the population are video games, films, books, entertainment and internet culture. This can be explained quite easily by the fact that people have been looking for new occupations to occupy the large amount of free time spent at home. 'biology' and 'medicine and health' have also gained a lot of interest, this is probably linked to the public's concern and need for information about COVID-19. Here the color gradient seems to indicate a relationship between the level of decline in mobility and the gain in interest for certain subjects, which can checked with the next figure.
 
-From an overall perspective, we can conclude that the populations of the countries studied appear to have complied with the containment and health measures imposed by governments. Indeed, people did not seek to take an interest in what was forbidden and inaccessible but rather in the only occupations that remained possible.
+Each point of the next figure represents a version of wikipedia, with the mobility shift in the associated country on the x-axis and the gain in interest in films and video games on the y-axis (weighted average of the two subjects). 
+
+![plot_mobilityshiftxfilmsinterest](images/films_videogames.png)
+
+There appears to be a linear relationship between the two variables, the coefficients of which are made explicit in the graph. The slope of the line is about 0.6, which means that a 10-point decrease in mobility leads to a 6-point increase in interest in video games and films.
+
+From an overall perspective, it is possible to conclude that the populations of the countries studied appear to have complied with the containment and health measures imposed by governments. Indeed, people did not seek to take an interest in what was forbidden and inaccessible but rather in the only occupations that remained possible. This analysis goes in the direction of a capacity of the population to adapt to the situation and seems to indicate that the extremist protest movements were perhaps over-represented on the social networks or in the media compared to their real extent in the society.
+
 
 
