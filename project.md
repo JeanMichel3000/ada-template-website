@@ -484,7 +484,7 @@ Now the idea is to visualize in a simple and clear way which subjects have emerg
 
 <html>
 <head>
-  <script async="true" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+  <script async="true" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"> </script>
 </head>
 <div class="cmath">
 `\Delta = \frac{I_{covid} - I_{ref}}{I_{ref}} \newline`
