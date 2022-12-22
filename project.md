@@ -4,18 +4,19 @@ layout: default
 
 # Introduction
 
+[rajouter quelques phrases d'accroche pour avoir une intro plus amicale ?]
+
 We studied the evolution of the behaviour of citizens who were subjected to mobility restriction measures due to the Covid-19 pandemic in spring 2020. More specifically, in the following data story, we will discuss the different levels of stringency of the measures put in place, looking at a possible link with the level of democracy of the countries. Then we will see that there may be a link between the level of stringency of the measures put in place and the evolution of people's interests.  
 We will thus answer the following questions:  
 **Did the most democratic countries implement the most moderate measures?**  
 **Did citizens exposed to stricter measures think more about what they were not allowed to do?**  
 
 To perform such analysis, we used three different types of data:  
--Democracy index records  
--Mobility data from Google and Apple  
--Pageviews data from different versions of Wikipedia  
- 
+- Democracy index records  
+- Mobility data from Google and Apple  
+- Pageviews data from different versions of Wikipedia  
 
-
+ <br>
 
 # Presentation of the democracy index
 
@@ -45,22 +46,25 @@ Next using the geopandas documentation, we plotted the democracy index for the y
 
 # Mobility data
 
-The covid pandemics impacted our mobility in an unprecedented way. In a vast majority of countries in the world, people almost stopped going outside and spent the majority of their time at home, because they were forced to, because of the fear of the virus, because of the closure of the shops or because of a combination of these factors. Of course, not all countries reacted in the same way to the pandemics. Some countries showed only a small decrease in the mobility of the inhabitants while some others completely stopped all social activity. Three countries were taken as examples in the graph below :
+The covid pandemics impacted our mobility in an unprecedented way. In a vast majority of countries, people almost stopped going outside and spent the majority of their time at home, because they were forced to, because of the fear of the virus, because of the closure of the shops or because of a combination of these factors. Of course, not all countries reacted in the same way to the pandemics. Some countries showed only a small decrease in the mobility of the inhabitants while some others completely stopped all social activity. France, Mexico and Vietnam are a good examples of different reactions to the pandemics. Located on different continents, more or less democratic, the evolution in the walking mobility between these three countries is sensibly different as shown in the graph below.
 
-![plot_walking_evolution](images/walking_evolution_fr_me_viet.png)
-
+<p align='center'>
+<img src="images/walking_evolution_fr_me_viet.png" />
+</p>
 
 
 
 France and Mexico show a sharp decrease in walking mobility, which reaches a very low level in France. On the contrary in Vietnam, the mobility decreases much more slowly, and, then stays at a higher level than in the two other countries.
 
-The response of the authorities were however similar in these countries, with the suspension on non essential activities, interdiction of meetings etc… However, they have probably been applied in a more or less strict way, and the response of the population to these measures has probably been different, leading to very different evolutions of mobilities.
+Even if the response of the authorities were however similar in these countries, with the suspension on non essential activities, interdiction of meetings etc… , these measures have probably been applied in a more or less strict way. Moreover, the response of the population is non uniform across the different countries, leading to very different evolutions of mobilities.
 
-The mobility change can also be studied more precisely, taking into account the different categories of places that people visited. In this section we focus more precisely on the categories “retail and recreation”, “grocery and pharmacy”, “transit stations” and “workplaces” which are extracted from the Google mobility data. The drop in each of these categories can be evaluated by by taking the difference between the two “lowest” weeks (which corresponds to the peak of the covid pandemics in the concerned country) and the two “highest” weeks (before the pandemics). By doing this, the response to the pandemics from each country can be characterized by the drop in the visits to the different categories of places in the corresponding country.
+The mobility variations can also be studied more precisely, taking into account the different categories of places that people visited. In this section we focus more precisely on the categories “retail and recreation”, “grocery and pharmacy”, “transit stations” and “workplaces” which are extracted from the Google mobility data. The drop in each of these categories can be evaluated by taking the difference between the two “lowest” weeks (which corresponds to the peak of the covid pandemics in the concerned country) and the two “highest” weeks (before the pandemics). By doing this, the response to the pandemics from each country can be characterized by the drop in the visits to the different categories of places in the corresponding country.
 
-The different countries can then be clusterized with k-means to group countries with a similar response to pandemics. The results of this clustering is detailed below : (à remplacer ensuite par une sorte de graphe interactif)
+The different countries can then be clusterized with k-means to group countries with a similar response to pandemics. The mobility changes for the centroid of each cluster are depicted below :
 
-![plot_cat_changes](images/categories_change.png)
+<p align='center'>
+<img src="images/categories_change.png" />
+</p>
 
 
 
@@ -105,7 +109,7 @@ United Arab Emirates , Austria, Bosnia and Herzegovina, Bangladesh, Belgium, Chi
 </ul>
 
 
-<b>Analysis : </b>This cluster contains a high number of countries. It seems to be the most popular restrictions genotype over the world, with an important decrease in the visits to “retail and recreation” places and transit stations. This decrease was less important for vital shops (“grocery and pharmacy”). An important part of democratic countries (democracy index > 0.6) have followed this path. The other part is mostly in the cluster 4.
+<b>Analysis : </b>This is the biggest of the five clusters. It seems to be the most popular restrictions type across the world, with an important decrease in the visits to “retail and recreation” places and transit stations. This decrease was less important for vital shops (“grocery and pharmacy”). An important part of democratic countries (democracy index > 0.6) have followed this path. The other democratic countries are mostly found in cluster 4.
 </p>
 
 </section>
@@ -138,7 +142,7 @@ Burkina Faso, Bahrain, Benin, Belarus, Cameroon, Haiti, Japan, Cambodia, Latvia,
 <li>Workplaces : -32.4 %</li>
 </ul>
 
-<b>Analysis : </b>Cluster with light restrictions. Mostly composed of undemocratic countries. This is quite surprising as we could expect undemocratic countries to impose the hardest restrictions while the contrary seems to happen.
+<b>Analysis : </b>This is a cluster with light restrictions, mostly composed of undemocratic countries. This is quite surprising as we could expect undemocratic countries to impose the hardest restrictions while the contrary seems to happen.
 </p>
 
 </section>
@@ -170,7 +174,7 @@ Argentina, Barbados, Bolivia, Botswana, Colombia, Ecuador, Spain, Georgia, Hondu
 <li>Workplaces : -78.6 %</li>
 </ul>
 
-<b>Analysis : </b>Hardest lockdown. What is remarkable here is that the countries with the hardest restrictions on people’s mobility are almost exclusively countries with a moderate democracy index. One probable explanation is that it was impossible on democratic countries to go as far in the restrictions without violating the rule of law. As undemocratic countries are often quite poor, it is probably impossible for them to impose such severe restrictions without durably impacting an already fragile economy.
+<b>Analysis : </b>Cluster with the hardest lockdown. What is remarkable here is that the countries with the hardest restrictions on people’s mobility are almost exclusively countries with a moderate democracy index. One probable explanation is that it was impossible for democratic countries to go as far in the liberty restrictions without violating the rule of law. On the other side, as undemocratic countries are often poor countries, it is probably impossible for them to impose such severe restrictions without durably impacting an already fragile economy. This could explain why this cluster is almost exclusively composed of countries with a moderate democracy index.
 </p>
 
 </section>
@@ -259,9 +263,9 @@ Hong Kong, South Korea, Mongolia, Taiwan
 
 
 
-# Correlations democracy index x mobility drop
+# Is there a link between the stricness of the lockdown and the democracy index ?
 
-As shown in the previous clustering, the democracy index seems to have an impact on the response of a country to the pandemics. Let us investigate more on this possible link. Using the data coming from the Apple mobility report, one can plot the decrease in walking mobility with respect to the democracy index, each point representing a country. The drop in walking mobility is evaluated as the two highest weeks before lockdown vs. the two lowest weeks (i.e. the peak of the restrictions).
+As studied in the previous clustering, the democracy index seems to have an impact on the response of a country to the pandemics. Let us investigate more on this possible link. Using the data coming from the Apple mobility report, one can plot the decrease in walking mobility with respect to the democracy index, each point representing a country. The drop in walking mobility is evaluated by comparing the two highest weeks before lockdown vs. the two lowest weeks (i.e. the peak of the restrictions).
 
 
 <html>
