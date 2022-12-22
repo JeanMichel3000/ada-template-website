@@ -1,9 +1,7 @@
-const register = document.querySelector("#registration_selection_country");
-const optionA = document.querySelector("#show_option_A");
-const optionB = document.querySelector("#show_option_B");
+const register_c = document.querySelector("#registration_selection_country");
 
-register.addEventListener('change', (event) => {
-  if (register.value === "Sweden") {
+register_c.addEventListener('change', (event) => {
+  if (register_c.value === "Sweden") {
     show_Sweden.style.display = "block";
     show_Denmark.style.display = "none";
     show_Italy.style.display = "none";
@@ -16,7 +14,7 @@ register.addEventListener('change', (event) => {
     show_Turkey.style.display = "none";
     show_Sum_of_all.style.display = "none";
       }
-  else if (register.value === "Denmark") {
+  else if (register_c.value === "Denmark") {
     show_Sweden.style.display = "none";
     show_Denmark.style.display = "block";
     show_Italy.style.display = "none";
@@ -29,7 +27,7 @@ register.addEventListener('change', (event) => {
     show_Turkey.style.display = "none";
     show_Sum_of_all.style.display = "none";
       }
-  else if (register.value === "Italy") {
+  else if (register_c.value === "Italy") {
     show_Sweden.style.display = "none";
     show_Denmark.style.display = "none";
     show_Italy.style.display = "block";
@@ -42,7 +40,7 @@ register.addEventListener('change', (event) => {
     show_Turkey.style.display = "none";
     show_Sum_of_all.style.display = "none";
       }
-  else if (register.value === "Norway") {
+  else if (register_c.value === "Norway") {
     show_Sweden.style.display = "none";
     show_Denmark.style.display = "none";
     show_Italy.style.display = "none";
@@ -55,7 +53,7 @@ register.addEventListener('change', (event) => {
     show_Turkey.style.display = "none";
     show_Sum_of_all.style.display = "none";
       }
-  else if (register.value === "Germany") {
+  else if (register_c.value === "Germany") {
     show_Sweden.style.display = "none";
     show_Denmark.style.display = "none";
     show_Italy.style.display = "none";
@@ -68,7 +66,7 @@ register.addEventListener('change', (event) => {
     show_Turkey.style.display = "none";
     show_Sum_of_all.style.display = "none";
       }
-  else if (register.value === "Japan") {
+  else if (register_c.value === "Japan") {
     show_Sweden.style.display = "none";
     show_Denmark.style.display = "none";
     show_Italy.style.display = "none";
@@ -81,7 +79,7 @@ register.addEventListener('change', (event) => {
     show_Turkey.style.display = "none";
     show_Sum_of_all.style.display = "none";
       }
-  else if (register.value === "Netherlands") {
+  else if (register_c.value === "Netherlands") {
     show_Sweden.style.display = "none";
     show_Denmark.style.display = "none";
     show_Italy.style.display = "none";
@@ -94,7 +92,7 @@ register.addEventListener('change', (event) => {
     show_Turkey.style.display = "none";
     show_Sum_of_all.style.display = "none";
       }
-  else if (register.value === "Finland") {
+  else if (register_c.value === "Finland") {
     show_Sweden.style.display = "none";
     show_Denmark.style.display = "none";
     show_Italy.style.display = "none";
@@ -107,7 +105,7 @@ register.addEventListener('change', (event) => {
     show_Turkey.style.display = "none";
     show_Sum_of_all.style.display = "none";
       }
-  else if (register.value === "Catalonia") {
+  else if (register_c.value === "Catalonia") {
     show_Sweden.style.display = "none";
     show_Denmark.style.display = "none";
     show_Italy.style.display = "none";
@@ -120,7 +118,7 @@ register.addEventListener('change', (event) => {
     show_Turkey.style.display = "none";
     show_Sum_of_all.style.display = "none";
       }
-  else if (register.value === "Turkey") {
+  else if (register_c.value === "Turkey") {
     show_Sweden.style.display = "none";
     show_Denmark.style.display = "none";
     show_Italy.style.display = "none";
@@ -133,7 +131,7 @@ register.addEventListener('change', (event) => {
     show_Turkey.style.display = "block";
     show_Sum_of_all.style.display = "none";
       }
-  else if (register.value === "Sum of all") {
+  else if (register_c.value === "Sum of all") {
     show_Sweden.style.display = "none";
     show_Denmark.style.display = "none";
     show_Italy.style.display = "none";
