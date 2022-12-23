@@ -20,7 +20,7 @@ To perform such analysis, we used three different types of data:
 
 # Presentation of the democracy index
 
-The first step is going to be to start exploring the democracy index around the world, in order to do this, the liberal democracy indicator from ‘Our world in Data’ was used. Based on the expert assessments and index by V-Dem. It combines information on voting rights, the
+The first step is going to be to start exploring the democracy index around the world, in order to do this, the liberal democracy indicator from ‘Our world in Data’ was used. Based on the expert assessments and index by the V-Dem Institute. It combines information on voting rights, the
 freedom and fairness of elections, freedoms of association and expression, civil liberties, and executive constraints. It ranges from 0 to 1 (most democratic), and gives data with a variable time span from 1789 until 2021.
 
 
