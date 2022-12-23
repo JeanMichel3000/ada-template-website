@@ -25,7 +25,7 @@ Do not trust his confusing behaviour : Bechara is one of the best computer scien
 
 <html>
 <img src="images/louis.jpg" class="meme_hauteur" style="float:right;"/>
-<p>Bonjour je suis Louis Bonjour je suis Louis Bonjour je suis Louis Bonjour je suis Louis Bonjour je suis Louis Bonjour je suis Louis Bonjour je suis Louis Bonjour je suis Louis Bonjour je suis Louis Bonjour je suis Louis Bonjour je suis Louis Bonjour je suis Louis Bonjour je suis Louis Bonjour je suis Louis Bonjour je suis Louis Bonjour je suis Louis Bonjour je suis Louis </p>
+<p>Inconsolable since France's defeat in the World Cup final, Louis tries to drown his sorrows in data analysis and machine learning. Whether it's for a linear regression or for a raclette evening, you can always count on him. Make an appointment with his secretary for more details. </p>
 <br />
 <br />
 </html>
