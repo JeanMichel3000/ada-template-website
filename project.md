@@ -516,7 +516,7 @@ Each point of the next figure represents a version of wikipedia, with the mobili
 
 <html>
 <p align='center'>
-<img src="images/films_videogames.png" />
+<img src="images/films_videogames2.png" />
 </p>
 </html>
 
