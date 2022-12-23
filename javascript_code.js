@@ -46,6 +46,24 @@ else if (register.value === "option5") {
     show_option5.style.display = "none"; }
 });
 
+
+const register_map = document.querySelector("#map_selection");
+
+register_map.addEventListener('change', (event) => {
+    if (register_map.value === "select_region") {
+      map_europe.style.display = "none";
+      map_east_asia.style.display = "none";
+        }
+    else if (register_map.value === "map1") {
+        map_europe.style.display = "block";
+        map_east_asia.style.display = "none";
+            }
+    else if (register_map.value === "map2") {
+        map_europe.style.display = "none";
+        map_east_asia.style.display = "block";
+            }
+});  
+
 function function_button_plot(element) {
     if (plot_without_linear_regression.style.display == "block") {
         plot_without_linear_regression.style.display = "none";
