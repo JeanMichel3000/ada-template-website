@@ -498,10 +498,11 @@ In order to do so, the following figure shows the relative evolution of interest
 <div class="cmath">
 `I_{ref}` : average proportion of this topic among all wikipedia visits in this country during same period but one year before(so in 2019). </div>
 
+<p align='center'>
+<img src="images/matrice_seuil10.png" />
+</p>
+
 </html>
-
-![plot_interests_matrix](images/matrice_seuil10.png)
-
 
 On the vertical axis the matrix is sorted with the subject whose interest has globally decreased the most at the top and the subject whose interest has globally increased the most at the bottom. On the horizontal axis, countries are sorted according to their mobility shift, from highest on the left to lowest on the right. 
 Moreover, only those topics that have a relative change in interest of more than 10% in absolute value (on average over all countries) are shown.
@@ -513,7 +514,11 @@ Among the 10 subjects that have gained the most interest overall among the popul
 
 Each point of the next figure represents a version of wikipedia, with the mobility shift in the associated country on the x-axis and the gain in interest in films and video games on the y-axis (weighted average of the two subjects). 
 
-![plot_mobilityshiftxfilmsinterest](images/films_videogames.png)
+<html>
+<p align='center'>
+<img src="images/films_videogames.png" />
+</p>
+</html>
 
 There appears to be a linear relationship between the two variables, with a correlation coefficient of 0.599 which shows that the mobility shift is one of the main driver for the evolution of the interest in video games and films. The coefficients of the line are made explicit in the graph. The slope is about 0.6, which means that a 10-point decrease in mobility leads to a 6-point increase in interest in video games and films.
 
