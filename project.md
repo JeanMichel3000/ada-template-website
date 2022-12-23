@@ -292,7 +292,7 @@ As studied in the previous clustering, the democracy index seems to have an impa
 
 
 
-A decreasing trend can clearly be observed for countries with a democracy index lower to 0.7. Let us take into account only these countries, and study the relation between walking mobility change and democracy index using a linear regression. <button id="button_plot" onclick="function_button_plot()">I'd love to see this linear regression</button>
+A decreasing trend can clearly be observed for countries with a democracy index lower to 0.7. Let us take into account only these countries, and study the relation between walking mobility change and democracy index using a linear regression.  <button id="button_plot" onclick="function_button_plot()">I'd love to see this linear regression</button>
 
 
 
@@ -306,9 +306,9 @@ One possible explanation of this phenomena could be the association between the 
 </p>
 </html>
 
-The linear regression clearly indicates that the richest the country, the more dmocratic it is and higher is its capacity to enforce constraining measures without too important impact on the poverty of its population. However this does not apply for very rich and democratic countries. One possible explanation for this is that developped countries have a powerful health system which allows them to have lighter restrictions without a too strong impact on the health of their population.
+The linear regression indicates that the richest the country, the more democratic it is and probably the higher is its capacity to enforce constraining measures without too important impact on the poverty of its population. However this does not apply for very rich and democratic countries. One possible explanation for this is that developped countries have a powerful health system which allows them to have lighter restrictions without a too strong impact on the health of their population.
 
-Hence there is a clear correlation between the democracy index and the response to pandemics. Contrary to what one might have thought, the restrictions were lighter in undemocratic countries while one could have thought that authoritarian regimes would have enforced the strictest restrictions. It appears in fact that the reason behind this lies in the  wealth of the studied countries. Undemocratic country cannot inforce high restrictions without increasing poverty which could compromise their regime. More democratic countries are more willing to impose stric restrictions as they are less constrained from an eonomic point of view. Finallyn, very democratic countries are also the richests : they have all lattitude to impose the measures they want as they are rich enough, and also probably better medical infrastructure which necessitate less restrictions to contain the effects of the virus.
+Hence there is a clear correlation between the democracy index and the response to pandemics. The restrictions were lighter in undemocratic countries while one might have thought that authoritarian regimes would have enforced the strictest restrictions. It appears in fact that the reason behind this lies in the  wealth of the studied countries. Undemocratic country cannot inforce high restrictions without increasing poverty which could compromise their regime. More democratic countries are more willing to impose stric restrictions as they are less constrained from an eonomic point of view. Finallyn, very democratic countries are also the richests : they have all lattitude to impose the measures they want as they are rich enough, and also probably better medical infrastructure which necessitate less restrictions to contain the effects of the virus.
 
 
 
