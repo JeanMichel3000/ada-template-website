@@ -29,11 +29,11 @@ layout: default
 <br />
 </html>
 
-# Meriadek Morrier
+# Meriadec Morrier
 
 <html>
 <img src="images/meriadec.jpg" class="meme_hauteur" style="float:right;"/>
-<p>Bonjour je suis Meriadek Bonjour je suis Meriadek Bonjour je suis Meriadek Bonjour je suis Meriadek Bonjour je suis Meriadek Bonjour je suis Meriadek Bonjour je suis Meriadek Bonjour je suis Meriadek Bonjour je suis Meriadek Bonjour je suis Meriadek Bonjour je suis Meriadek Bonjour je suis Meriadek Bonjour je suis Meriadek Bonjour je suis Meriadek Bonjour je suis Meriadek Bonjour je suis Meriadek Bonjour je suis Meriadek </p>
+<p>Hi! I am currently studying in the Master of Life Sciences Engineering. I am particularly interested in the applications of computer science to biology. The results of modern biological experiments constitute an inexhaustible source of data to analyse! </p>
 <br />
 <br />
 </html>
