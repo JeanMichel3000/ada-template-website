@@ -5,8 +5,14 @@ layout: default
 # Bechara Nasr
 
 <html>
+<style>
+.meme_hauteur {
+  height: 300px;
+  width: auto;
+}
+</style>
 <p align='center'>
-<img src="images/bech.jpg" />
+<img src="images/bech.jpg" class="meme_hauteur"/>
 </p>
 </html>
 
@@ -14,7 +20,7 @@ layout: default
 
 <html>
 <p align='center'>
-<img src="images/louis.jpg" />
+<img src="images/louis.jpg" class="meme_hauteur" />
 </p>
 </html>
 
@@ -22,7 +28,7 @@ layout: default
 
 <html>
 <p align='center'>
-<img src="images/meriadec.jpg" />
+<img src="images/meriadec.jpg" class="meme_hauteur"/>
 </p>
 </html>
 
@@ -30,6 +36,6 @@ layout: default
 
 <html>
 <p align='center'>
-<img src="images/val.jpg" />
+<img src="images/val.jpg" class="meme_hauteur"/>
 </p>
 </html>
