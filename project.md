@@ -24,10 +24,10 @@ The first step is going to be to start exploring the democracy index around the 
 freedom and fairness of elections, freedoms of association and expression, civil liberties, and executive constraints. It ranges from 0 to 1 (most democratic), and gives data with a variable time span from 1789 until 2021.
 
 
-Using the geopandas documentation, The democracy index for the year 2019 <strong> (pas 2020 du coup ?) </strong> were plotted, and displayed here the world map, with a certain zoom to the region that are going to be of interest for the remaining of the study. 
+Using the geopandas documentation, The democracy index for the year 2020 were plotted, and displayed here the world map, with a certain zoom to the region that are going to be of interest for the remaining of the study. 
 
 <p align='center'>
-<img src="images/Democracy_index_world_2.png" />
+<img src="images/World_democracy_index_4.png" />
 </p>
 
 I want to see specific details for <label for="map_select"></label>
