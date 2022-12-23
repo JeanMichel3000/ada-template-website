@@ -65,7 +65,7 @@ register_map.addEventListener('change', (event) => {
 });  
 
 function function_button_plot(element) {
-    if (plot_without_linear_regression.style.display == "block") {
+    if (plot_with_linear_regression.style.display == "none") {
         plot_without_linear_regression.style.display = "none";
         plot_with_linear_regression.style.display = "block" ;
       }
