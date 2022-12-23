@@ -131,7 +131,7 @@ register_c.addEventListener('change', (event) => {
     show_Turkey.style.display = "block";
     show_Sum_of_all.style.display = "none";
       }
-  else if (register_c.value === "Sum of all") {
+  else if (register_c.value === "Weighted average") {
     show_Sweden.style.display = "none";
     show_Denmark.style.display = "none";
     show_Italy.style.display = "none";

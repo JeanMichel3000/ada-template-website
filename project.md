@@ -315,7 +315,8 @@ Hence there is a clear correlation between the democracy index and the response 
 
 The objective of this section is to study the impact of the COVID-19 pandemic on the population's interests, taking into account the different level of mobility shift in each country. Only 12 countries are considered here, which are Turkey, Serbia, Japan, Italy, South Korea, Catalonia, the Netherlands, Germany, Finland, Norway, Sweden and Denmark. These are the only versions of Wikipedia present in the dataset whose language can be directly associated with a single country. This was not the case for the English version of Wikipedia, for example, as English is spoken in many parts of the world.
 
-Using the following drop-down menu it is possible to vizualise the total evolution of the number of wikipedia searches for these countries. On the time scale the date of the drastic drop in mobility and the date of return to normalcy are depicted. This period will be considered as the 'COVID' period for the rest of the analysis. The overall evolution in all countries is also available, the population of each country is taken as a weight in the mean calculation.
+Using the following drop-down menu it is possible to vizualise the evolution of the total number of wikipedia searches for these countries. On the time scale the date of the drastic drop in mobility is depicted. The period that will be considered as the 'COVID' period for the rest of the analysis starts with this date and ends with the date of return to normalcy available in the dataset. 
+The average evolution across all countries is also available, the population of each country is taken as a weight in the average calculation.
 
 <html>
 Plese select a country to display the details :
@@ -332,7 +333,7 @@ Plese select a country to display the details :
     <option value = "Finland">Finland</option>
     <option value = "Catalonia">Catalonia</option>
     <option value = "Turkey">Turkey</option>
-    <option value = "Sum of all">Sum of all</option>
+    <option value = "Weighted average">Weighted average</option>
 </select>
 
 <section id = "show_Sweden" style="display: none;">
@@ -468,7 +469,7 @@ Plese select a country to display the details :
 
 <section id = "show_Sum_of_all" style="display: none;">
 <p>
-<h3><b>Sum of all</b></h3>
+<h3><b>Weighted average</b></h3>
 <br>
 <br>
 <p align='center'>
@@ -483,8 +484,11 @@ Plese select a country to display the details :
 <script src='javascript_code_louis.js'></script>
 
 </html>
+The transparent curve shows the weekly periodicity of the number of searches, with a peak of activity on the weekend. This trend is not relevant in this analysis, hence the interest of the one week moving average with the orange curve.
+It can be noticed that in most cases the total traffic of wikipedia has not been so much impacted by the pandemic. This is however the case for Turkey and Italy which are two countries where the drop in mobility has been very important. 
+Nevertheless, even if the total number of visits is relatively stable, it is relevant to look at the breakdown of these searches by topics, in order to know the emerging and declining topics
 
-Now the idea is to visualize in a simple and clear way which subjects have emerged or on the contrary declined during the pandemic according to the countries. The following figure shows the relative evolution of interest in several topics and in each country considered here. The relative evolution of interest for a given topic in a given country is defined as follows: 
+In order to do so, the following figure shows the relative evolution of interest in several topics and in each country considered here. The relative evolution of interest for a given topic in a given country is defined as follows: 
 
 <html>
 <head>
@@ -516,7 +520,7 @@ Each point of the next figure represents a version of wikipedia, with the mobili
 
 ![plot_mobilityshiftxfilmsinterest](images/films_videogames.png)
 
-There appears to be a linear relationship between the two variables, the coefficients of which are made explicit in the graph. The slope of the line is about 0.6, which means that a 10-point decrease in mobility leads to a 6-point increase in interest in video games and films.
+There appears to be a linear relationship between the two variables, with a correlation coefficient of 0.599 which shows that the mobility shift is one of the main driver for the evolution of the interest in video games and films. The coefficients of the line are made explicit in the graph. The slope is about 0.6, which means that a 10-point decrease in mobility leads to a 6-point increase in interest in video games and films.
 
 From an overall perspective, it is possible to conclude that the populations of the countries studied appear to have complied with the containment and health measures imposed by governments. Indeed, people did not seek to take an interest in what was forbidden and inaccessible but rather in the only occupations that remained possible. This analysis goes in the direction of a capacity of the population to adapt to the situation and seems to indicate that the extremist protest movements were perhaps over-represented on the social networks or in the media compared to their real extent in the society.
 
