@@ -13,7 +13,6 @@ layout: default
 </style>
 <p>
 <img src="images/bech.jpg" class="meme_hauteur" style="float:right;"/>
-<p>
 <strong>MA1 Energy Science and Technology</strong> <br><br>
 Do not trust his confusing behaviour : Bechara is one of the best computer scientist of his generation. He wrote his first C++ program at the age of two, and won the Fortran contest of his district in the following year. His little mustache his massive biceps hide a man with strong charismatic leadership, ready to lead his men to victory. Bechara has recently begun an influencer career : not hesitate to follow him on social media to benefit from all his accurate and spontaneous advices. </p>
 
