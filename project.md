@@ -20,22 +20,17 @@ To perform such analysis, we used three different types of data:
 
 # Presentation of the democracy index
 
-Let’s start by exploring the democracy index around the world, in order to do this we have decided to use the liberal democracy from ‘Our world in Data’. Based on the expert assessments and index by V-Dem. It combines information on voting rights, the
+The first step is going to be to start exploring the democracy index around the world, in order to do this, the liberal democracy indicator from ‘Our world in Data’ was used. Based on the expert assessments and index by V-Dem. It combines information on voting rights, the
 freedom and fairness of elections, freedoms of association and expression, civil liberties, and executive constraints. It ranges from 0 to 1 (most democratic), and gives data with a variable time span from 1789 until 2021.
 
-We can see on the graph below the evolution of these democracy indexes since the year 1960. We can spot some very marking period in some countries history and how that reflected on the evolution of their liberal democracy. We can mention, the 1980 Turkish coup d'état followed buy the partial return to democracy in 1983. The death of caudillo Francisco Franco in 1075 marking the beginning if the Spanish transition to democracy the establishment of the parliamentary monarchy and the subsequent accession of King Juan Carlos I to the throne...
 
-![plot_democracy_index_map](images/Democracy%20_evolution.png)
+Using the geopandas documentation, The democracy index for the year 2019 were plotted, and displayed here the world map, with a certain zoom to the region that are going to be of interest for the remaining of the study. 
 
-The vertical line marks the year 2019, the year where we consoider the data for the rest of our study.
-
-
-Next using the geopandas documentation, we plotted the democracy index for the year 2019, we display here the world map, with a certain zoom to the region that interest us for the remaining of the study. 
-
-![plot_democracy_index_map](images/Democracy_index_world.png)
-![plot_democracy_index_map](images/Democracy_index_1.png)
-![plot_democracy_index_map](images/Democracy_index_2.png)
-
+<p align='center'>
+<img src="images/Democracy_index_world_2.png" />
+<img src="images/Democracy_index_1.png" />
+<img src="images/Democracy_index_2.png" />
+</p>
 
 
 
