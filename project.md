@@ -4,9 +4,9 @@ layout: default
 
 # Introduction
 
-[rajouter quelques phrases d'accroche pour avoir une intro plus amicale ?]
-
-We studied the evolution of the behaviour of citizens who were subjected to mobility restriction measures due to the Covid-19 pandemic in spring 2020. More specifically, in the following data story, we will discuss the different levels of stringency of the measures put in place, looking at a possible link with the level of democracy of the countries. Then we will see that there may be a link between the level of stringency of the measures put in place and the evolution of people's interests.  
+Spring 2020 was marked by a series of exceptional containment measures due to the Covid-19 pandemic. These have disrupted the daily lives of billions of citizens. The measures taken have been more or less strict from one country to another
+We wanted to better understand the causes and consequences of such measures.  
+More specifically, in the following data story, we will discuss the different levels of stringency of the measures put in place, looking at a possible link with the level of democracy of the countries. Then we will see that there may be a link between the level of stringency of the measures put in place and the evolution of people's interests.  
 We will thus answer the following questions:  
 **Did the most democratic countries implement the most moderate measures?**  
 **Did citizens exposed to stricter measures think more about what they were not allowed to do?**  
@@ -539,5 +539,17 @@ There appears to be a linear relationship between the two variables, with a corr
 
 From an overall perspective, it is possible to conclude that the populations of the countries studied appear to have complied with the containment and health measures imposed by governments. Indeed, people did not seek to take an interest in what was forbidden and inaccessible but rather in the only occupations that remained possible. This analysis goes in the direction of a capacity of the population to adapt to the situation and seems to indicate that the extremist protest movements were perhaps over-represented on the social networks or in the media compared to their real extent in the society.
 
+
+# Conclusion
+
+**Our study allowed to better understand mobility restriction policies implemented during the Covid-19 pandemic and their consequences.**  
+
+First, it appeared that, except for the highly democratic countries, the less democratic the countries are the less mobility of citizens has been reduced. A reason for that observation could be found in the variations of GDP per capita, that can act as a confounder. **Poorer countries, which are also less democratic in average, cannot afford the loss of economic revenue that accompanies mobility restrictions.**  
+
+Different clusters of countries distinguished according to the mobility decrease in different places, usually matching specific levels of liberal democracy index.  
+
+To better understand the consequences of these more or less strict restrictions, we then studied the changes in the interests of citizens subject to different restrictions. It appeared that the more restrictions citizens were subjected to, the more their interest in the only topics that were still accessible to them (such as films and series) increased.  
+
+**Thus, under restrictions, people seem to adopt a behaviour in line with their environment (e.g. Netflix and chill) rather than focusing on what is not accessible (e.g. sports).**
 
 
