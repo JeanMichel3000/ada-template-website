@@ -34,7 +34,7 @@ Do not trust his confusing behaviour : Bechara is one of the best computer scien
 
 <html>
 <img src="images/meriadec.jpg" class="meme_hauteur" style="float:right;"/>
-<p>Hi! I am currently studying in the Master of Life Sciences Engineering. I am particularly interested in the applications of computer science to biology. The results of modern biological experiments constitute an inexhaustible source of data to analyse! </p>
+<p>Passionate about viruses before it was fashionable, Meriadec is particularly interested in the applications of computer science to biology. The results of modern biological experiments constitute an inexhaustible source of data to analyse he hopes to get a handle on! </p>
 <br />
 <br />
 </html>
@@ -43,5 +43,5 @@ Do not trust his confusing behaviour : Bechara is one of the best computer scien
 
 <html>
 <img src="images/val2.jpg" class="meme_hauteur" style="float:right;"/>
-<p>Bonjour je suis Valentin Bonjour je suis Valentin Bonjour je suis Valentin Bonjour je suis Valentin Bonjour je suis Valentin Bonjour je suis Valentin Bonjour je suis Valentin Bonjour je suis Valentin Bonjour je suis Valentin Bonjour je suis Valentin Bonjour je suis Valentin Bonjour je suis Valentin Bonjour je suis Valentin Bonjour je suis Valentin Bonjour je suis Valentin Bonjour je suis Valentin Bonjour je suis Valentin Bonjour je suis Valentin </p>
+<p>Valentin is a key member of the team. His passion for energy of all kinds is well known. On the other hand, his growing interest in data analysis seems very promising. Indeed, by combining his physical knowledge with an art of making data talk, he could well solve the current energy crisis! In the meantime he is working on his ambitious "Hello World" project.</p>
 </html>
