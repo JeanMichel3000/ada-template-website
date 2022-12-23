@@ -4,7 +4,7 @@ layout: default
 
 # Introduction
 
-Spring 2020 was marked by a series of exceptional containment measures due to the Covid-19 pandemic. These have disrupted the daily lives of billions of citizens. The measures taken have been more or less strict from one country to another
+Spring 2020 was marked by a series of exceptional containment measures due to the Covid-19 pandemic. These have disrupted the daily lives of billions of citizens. The measures taken have been more or less strict from one country to another.
 We wanted to better understand the causes and consequences of such measures.  
 More specifically, in the following data story, we will discuss the different levels of stringency of the measures put in place, looking at a possible link with the level of democracy of the countries. Then we will see that there may be a link between the level of stringency of the measures put in place and the evolution of people's interests.  
 We will thus answer the following questions:  
