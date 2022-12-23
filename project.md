@@ -511,7 +511,7 @@ In order to do so, the following figure shows the relative evolution of interest
 `I_{covid}` : average proportion of this topic among all wikipedia visits in this country during the covid period. </div>
 
 <div class="cmath">
-`I_{ref}` : average proportion of this topic among all wikipedia visits in this country during same period but one year before(so in 2019). </div>
+`I_{ref}` : average proportion of this topic among all wikipedia visits in this country during same period but one year before (hence in 2019). </div>
 
 <p align='center'>
 <img src="images/matrice_seuil10.png" />
@@ -525,7 +525,7 @@ Moreover, only those topics that have a relative change in interest of more than
 The subject in which interest decreased the most during the COVID was sport. 
 This decline in interest in sport is almost uniform (approximately -20%) across the 12 countries considered, although they have different mobility shift values. Even in countries where mobility has decreased less, such as Finland or Sweden, interest in sport has decreased significantly. There was also a decline in interest in other subjects such as architecture, visual arts and transportation, which can be explained by the almost complete cessation of tourism and reduction of travel. Again, these decreased values do not seem to be correlated with either the democracy index or the mobility shift.
 
-Among the 10 subjects that have gained the most interest overall among the population are video games, films, books, entertainment and internet culture. This can be explained quite easily by the fact that people have been looking for new occupations to occupy the large amount of free time spent at home. 'biology' and 'medicine and health' have also gained a lot of interest, this is probably linked to the public's concern and need for information about COVID-19. Here the color gradient seems to indicate a relationship between the level of decline in mobility and the gain in interest for certain subjects, which can checked with the next figure.
+Among the 10 subjects that have gained the most interest overall among the population are video games, films, books, entertainment and internet culture. This can be explained quite easily by the fact that people have been looking for new occupations to occupy the large amount of free time spent at home. 'biology' and 'medicine and health' have also gained a lot of interest, probably due to the public concern and need for information about COVID-19. Here the color gradient seems to indicate a relationship between the level of decline in mobility and the gain in interest for certain subjects, which can checked with the next figure.
 
 Each point of the next figure represents a version of wikipedia, with the mobility shift in the associated country on the x-axis and the gain in interest in films and video games on the y-axis (weighted average of the two subjects). 
 
