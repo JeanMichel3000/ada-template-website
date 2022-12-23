@@ -550,6 +550,6 @@ Different clusters of countries distinguished according to the mobility decrease
 
 To better understand the consequences of these more or less strict restrictions, we then studied the changes in the interests of citizens subject to different restrictions. It appeared that the more restrictions citizens were subjected to, the more their interest in the only topics that were still accessible to them (such as films and series) increased.  
 
-**Thus, under restrictions, people seem to adopt a behaviour in line with their environment (e.g. Netflix and chill) rather than focusing on what is not accessible (e.g. sports).**
+**Thus, under restrictions, people seem to adopt a behaviour in line with their environment (e.g. Netflix and chill) rather than draming about what is not accessible (e.g. sports, tourism).**
 
 
