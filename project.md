@@ -317,7 +317,8 @@ Very democratic countries are also the richests : they have all lattitude to imp
 
 The objective of this section is to study the impact of the COVID-19 pandemic on the population's interests, taking into account the different level of mobility shift in each country. Only 12 countries are considered here, which are Turkey, Serbia, Japan, Italy, South Korea, Catalonia, the Netherlands, Germany, Finland, Norway, Sweden and Denmark. These are the only versions of Wikipedia present in the dataset whose language can be directly associated with a single country. This was not the case for the English version of Wikipedia, for example, as English is spoken in many parts of the world.
 
-Using the following drop-down menu it is possible to vizualise the evolution of the total number of wikipedia searches for these countries. On the time scale the date of the drastic drop in mobility and the date of return to normalcy are depicted. This period will be considered as the 'COVID' period for the rest of the analysis. The average evolution across all countries is also available, the population of each country is taken as a weight in the average calculation.
+Using the following drop-down menu it is possible to vizualise the evolution of the total number of wikipedia searches for these countries. On the time scale the date of the drastic drop in mobility is depicted. The period that will be considered as the 'COVID' period for the rest of the analysis starts with this date and ends with the date of return to normalcy available in the dataset. 
+The average evolution across all countries is also available, the population of each country is taken as a weight in the average calculation.
 
 <html>
 Plese select a country to display the details :
