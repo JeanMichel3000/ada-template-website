@@ -7,12 +7,17 @@ layout: default
 <html>
 <style>
 .meme_hauteur {
-  height: 300px;
+  height: 150px;
   width: auto;
 }
 </style>
-<img src="images/bech.jpg" class="meme_hauteur"/><br />
+<p>
+<img src="images/bech.jpg" class="meme_hauteur" style="float:right;"/>
+<p>Bonjour je suis Bechara </p>
+
 <br />
+<br />
+<p/>
 </html>
 
 # Louis Garbay
